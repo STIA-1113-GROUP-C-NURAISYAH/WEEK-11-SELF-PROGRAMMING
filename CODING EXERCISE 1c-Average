@@ -1,0 +1,27 @@
+package selfProgramming;
+
+public class Average {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// declare and initialize an array
+		double array[] = {10, 20, 30, 40, 50};
+		
+	    // declare sum variable, initialize with 0
+	    double sum= 0.0;
+	    
+	    // declare average variable
+	    double avg= 0.0;
+
+	    // loop to iterate the array
+	    for (int i=0; i<array.length; i++) {
+	      sum=sum+array[i];
+	    }
+
+	    // calculate the average
+	    avg=sum/array.length;
+	    System.out.println("Average: " + avg );
+	}
+
+}
