@@ -1,0 +1,40 @@
+package selfProgramming;
+import java.util.Scanner;
+public class HeightName {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc=new Scanner(System.in);
+		
+		//declare and create array
+		System.out.println ("Enter size of array");
+		int n=sc.nextInt();
+		double height []=new double [n];
+		String name []=new String [n];
+		
+		//assign input value into array
+		for (int i=0; i<n; i++) {
+			System.out.println ("Enter height");
+			height[i]=sc.nextDouble();
+			System.out.println("Enter name");
+			name[i]=sc.next();
+		}
+		
+		//find highest student and display name
+		double highest=height[0];
+		String highestName=name[0];
+		
+		for (int i=0; i<n; i++) {
+			if (height [i] > highest)
+			{highest=height[i];
+			highestName=name[i];
+			}
+		}
+		
+		//display highest student her/his name
+		System.out.println ("The highest student is " + highest);
+		System.out.println ("The highest student name is " + highestName);
+	}
+
+}
