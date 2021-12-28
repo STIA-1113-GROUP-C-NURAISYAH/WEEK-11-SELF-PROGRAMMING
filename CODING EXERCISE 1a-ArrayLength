@@ -1,0 +1,16 @@
+package selfProgramming;
+
+public class ArrayLength {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// declare and initialize an array
+	    int array[] = {1, 2, 3, 4, 5};
+	      
+	    // display array length
+	    System.out.print ("The length of the given array=");
+	    System.out.print (array.length);
+	}
+
+}
