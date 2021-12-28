@@ -1,0 +1,34 @@
+package selfProgramming;
+
+public class CompareArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// declare and initialize arrays
+	    int numArray1[] = {10,20,30,40,50};
+	    int numArray2[] = numArray1;
+	    int numArray3[] = {10,20,30,40,50};
+	    int numArray4[] = {15,25,35,45,55};
+	    
+	 
+	    // compare numArray1 and numArray2
+	    if(numArray1 == numArray2)
+	      System.out.println("Array 1 and array 2 are same");
+	    else 
+	      System.out.println("Array 1 and array 2 are not same");
+	    
+	    // compare numArray1 and numArray3
+	    if(numArray1 == numArray3)
+	      System.out.println("Array 1 and array 3 are same");
+	    else 
+	      System.out.println("Array 1 and array 3 are not same");
+	    
+	    // compare numArray1 and numArray4
+	    if(numArray1 == numArray4)
+	      System.out.println("Array 1 and array 4 are same");
+	    else 
+	      System.out.println("Array 1 and array 4 are not same");
+	}
+
+}
