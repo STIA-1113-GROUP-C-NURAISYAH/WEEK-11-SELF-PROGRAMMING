@@ -1,0 +1,19 @@
+//output 1
+Enter number of elements in first array: 23
+Enter number of elements in second array: 45
+Both array must have same number of elements
+
+//output 2
+Enter number of elements in first array: 4
+Enter number of elements in second array: 4
+Enter first array elements: 
+23
+45
+67
+43
+Enter second array elements: 
+75
+23
+19
+67
+Output Array: [98, 68, 86, 110]
