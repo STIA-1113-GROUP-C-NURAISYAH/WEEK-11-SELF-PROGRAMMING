@@ -1,0 +1,7 @@
+//output 1
+Enter search key: 80
+80 not Found.
+
+//output 2
+Enter search key: 90
+90 Found at Index = 1
