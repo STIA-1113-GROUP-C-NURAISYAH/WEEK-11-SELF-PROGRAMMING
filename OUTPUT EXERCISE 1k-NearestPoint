@@ -1,0 +1,12 @@
+Enter the number of points: 
+4
+Enter 4 points: 
+3.1
+-0.5
+5
+1.5
+-1
+2
+3.5
+3
+The closest two points are (5.0,1.5) and (3.5,3.0)
